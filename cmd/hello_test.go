@@ -2,7 +2,6 @@ package hello
 
 import (
     "testing"
-    "janmonko.com/hello"
 )
 
 func TestHello(t *testing.T) {
