@@ -1,4 +1,4 @@
-module janmonko.com/hello
+module github.com/VirtMarket/go_app
 
 go 1.14
 
