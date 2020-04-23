@@ -3,7 +3,8 @@ import (
     "fmt"
     "log"
     "net/http"
-	"go_app/cmd/router"
+    
+	"github.com/VirtMarket/go_app/router"
 )
 func main() {
     r := router.Router()

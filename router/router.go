@@ -1,7 +1,8 @@
 package router
 
 import (
-	"middleware"
+	"github.com/VirtMarket/go_app/middleware"
+	
 	"github.com/gorilla/mux"
 )
 
