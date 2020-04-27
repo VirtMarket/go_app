@@ -7,7 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"models"
+	"github.com/VirtMarket/go_app/models"
+
 	"github.com/gorilla/mux"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -19,7 +20,7 @@ import (
 // DB connection string
 // for localhost mongoDB
 // const connectionString = "mongodb://localhost:27017"
-const connectionString = "mongodb+srv://janmonko:<password>@gocluster-erkae.mongodb.net/test?retryWrites=true&w=majority"
+const connectionString = "mongodb+srv://janmonko:sosnowa19@gocluster-erkae.mongodb.net/test?retryWrites=true&w=majority"
 
 // Database Name
 const dbName = "test"
